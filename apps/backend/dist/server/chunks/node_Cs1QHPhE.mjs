@@ -1434,7 +1434,7 @@ async function getConfiguredImageService() {
   if (!globalThis?.astroAsset?.imageService) {
     const { default: service } = await import(
       // @ts-expect-error
-      './sharp_D34e2mQY.mjs'
+      './sharp_U5KC0Qa5.mjs'
     ).catch((e) => {
       const error = new AstroError(InvalidImageService);
       error.cause = e;
@@ -1761,8 +1761,8 @@ const assetQueryParams = undefined;
 							// in the Lambda bundle, which would bloat the bundle with images.
 							// To prevent this, we mark the URL construction as pure,
 							// so that it's tree-shaken away for all platforms that don't need it.
-							const outDir = /* #__PURE__ */ new URL("file:///C:/Users/fabia/Desktop/Fabian%20Proyectos/Urban-Pay-4.0-main/apps/backend/dist/client/");
-              const serverDir = /* #__PURE__ */ new URL("file:///C:/Users/fabia/Desktop/Fabian%20Proyectos/Urban-Pay-4.0-main/apps/backend/dist/server/");
+							const outDir = /* #__PURE__ */ new URL("file:///C:/Users/fabia/Desktop/Fabian%20Proyectos/Urban-Pay-4.0-main/apps/frontend/dist/client/");
+              const serverDir = /* #__PURE__ */ new URL("file:///C:/Users/fabia/Desktop/Fabian%20Proyectos/Urban-Pay-4.0-main/apps/frontend/dist/server/");
 							const getImage = async (options) => await getImage$1(options, imageConfig);
 
 const fnv1a52 = (str) => {

@@ -9,7 +9,9 @@ const env = loadEnv(process.env.NODE_ENV || 'development', process.cwd(), '');
 
 // https://astro.build/config
 export default defineConfig({
-  outDir: "../backend/dist",
+  // build server output into a local dist folder so the root `build:client`
+  // script can find and copy it later.
+  outDir: "./dist",
   output: "server",
   vite: {
     plugins: [tailwindcss()],
@@ -25,5 +27,5 @@ export default defineConfig({
   },
 
   integrations: [icon()],
-  adapter: node({mode: "middleware"})
+  adapter: node({mode: "middleware"}),
 });
