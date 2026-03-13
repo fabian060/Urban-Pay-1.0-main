@@ -33,7 +33,7 @@ The system uses a relational model designed for scalability:
 - Payments: Transactions made pending validation.
 
 ## Demo
-- [Urban Pay](fundamental-ingeborg-fabian060-8685e7be.koyeb.app/)
+- [Urban Pay](https://fundamental-ingeborg-fabian060-8685e7be.koyeb.app/)
 
 ## Author
 - [Fabian060](https://github.com/fabian060)
