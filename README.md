@@ -1,40 +1,39 @@
-Urban Pay 1.0
+# Urban Pay 1.0
 
--Urba Pay 
-Una plataforma integral de gestión de cobranza y administración para urbanismos. Este sistema permite centralizar el control financiero, facilitando la transparencia entre la administración y los residentes.
+A comprehensive collection and management platform for homeowners' associations. This system centralizes financial control, promoting transparency between the administration and residents.
 
--Propósito del Proyecto
-El objetivo principal es digitalizar la contabilidad de las comunidades. Los residentes pueden gestionar sus obligaciones financieras de forma autónoma, mientras que la administración obtiene herramientas de control en tiempo real.
+## Project Objective
+The main objective is to digitize the association’s accounting. Residents can manage their financial obligations independently, while the administration has access to real-time monitoring tools.
 
--Características Principales
-Panel de Residente: Visualización clara del estado de cuenta actual.
+## Key Features
+- Resident dashboard: clear view of the current account balance.
 
-Gestión de Cuotas: Listado detallado de cuotas.
+- Dues management: Detailed list of dues.
 
-Pasarela de Pagos: Registro y validación de comprobantes de pago.
+- Payment gateway: Recording and validation of payment receipts.
 
-Historial Financiero: Consulta de movimientos históricos y recibos digitales.
+- Financial history: View of historical transactions and digital receipts.
 
--Stack Tecnológico
-Frontend: Astro + Tailwind CSS para una interfaz rápida y reactiva.
+## Technology stack
+- Frontend: Astro + Tailwind CSS for a fast and responsive interface.
 
-Backend: Node.js con lógica de servidor eficiente.
+- Backend: Node.js with efficient server logic.
 
-Base de Datos & Auth: Supabase(PostgreSQL) para gestión de datos en tiempo real y autenticación segura.
+- Database and authentication: Supabase (PostgreSQL) for real-time data management and secure authentication.
 
--Arquitectura de Datos
-El sistema utiliza un modelo relacional diseñado para la escalabilidad:
+## Data architecture
+The system uses a relational model designed for scalability:
 
-Users: Perfiles de residentes y administradores.
+- Users: resident and administrator profiles.
 
-Properties: Vinculación de usuarios con sus respectivas casas/apartamentos.
+- Properties: linking users to their respective houses or apartments.
 
-Invoices: Registro de cuotas generadas mensualmente.
+- Bills: Record of generated monthly fees.
 
-Payments: Transacciones realizadas pendientes de validación.
+- Payments: Transactions made pending validation.
 
--Puedes acceder a la plataforma y probar sus funcionalidades aquí
-link:fundamental-ingeborg-fabian060-8685e7be.koyeb.app/
+## Demo
+- [Urban Pay](fundamental-ingeborg-fabian060-8685e7be.koyeb.app/)
 
-👨‍💻 Autor
-Fabián Mijares
+## Author
+- [Fabian060](https://github.com/fabian060)
